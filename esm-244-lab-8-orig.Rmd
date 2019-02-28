@@ -1,0 +1,43 @@
+---
+title: "ESM 244 Lab"
+author: "An Bui"
+date: "2/28/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries}
+# General packages
+library(tidyverse)
+library(janitor)
+library(plotly)
+library(RColorBrewer)
+
+# Packages for cluster analysis:
+library(NbClust)
+library(cluster)
+library(factoextra)
+library(dendextend)
+library(ggdendro)
+
+# Packages for text mining/sentiment analysis/word cloud
+library(pdftools)
+library(tidytext)
+library(wordcloud)
+```
+
+#### Part 1. k-means clustering using `iris` dataset
+Recall: uses a number of randomly placed centroid locations and iteratively converges to the centroids
+```{r}
+
+```
+
+
+
+
+
+
+
